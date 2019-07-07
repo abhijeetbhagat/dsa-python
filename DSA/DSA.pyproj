@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>5a339c68-74ea-40f4-943d-1259ff2d0e8a</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>heap.py</StartupFile>
+    <StartupFile>binary_search.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="binary_search.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="heap.py">
       <SubType>Code</SubType>
     </Compile>
