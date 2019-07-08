@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>5a339c68-74ea-40f4-943d-1259ff2d0e8a</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>selection_sort.py</StartupFile>
+    <StartupFile>merge_sort.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -25,14 +25,26 @@
     <Compile Include="binary_search.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="hash_table.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="heap.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="insertion_sort.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="linked_list_demo.py" />
     <Compile Include="binary_tree.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="merge_sort.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="selection_sort.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="trie.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
