@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>5a339c68-74ea-40f4-943d-1259ff2d0e8a</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>quick_sort.py</StartupFile>
+    <StartupFile>hash_table.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
