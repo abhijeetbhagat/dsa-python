@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>5a339c68-74ea-40f4-943d-1259ff2d0e8a</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>hash_table.py</StartupFile>
+    <StartupFile>nineteen.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -34,6 +34,9 @@
     <Compile Include="insertion_sort.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="is_sorted.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="k_way_merge.py">
       <SubType>Code</SubType>
     </Compile>
@@ -44,10 +47,16 @@
     <Compile Include="merge_sort.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="nineteen.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="quick_sort.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="selection_sort.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="thanos_sort.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="trie.py">
