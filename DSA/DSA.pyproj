@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>5a339c68-74ea-40f4-943d-1259ff2d0e8a</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>sort_blue_red_balls.py</StartupFile>
+    <StartupFile>binary_dist.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -12,6 +12,7 @@
     <Name>DSA</Name>
     <RootNamespace>DSA</RootNamespace>
     <IsWindowsApplication>False</IsWindowsApplication>
+    <InterpreterId>Global|PythonCore|3.6</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,7 +23,34 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="binary_dist.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="binary_search.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="binary_tree_traversals_repeat.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bloom_filter.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bst.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="define_directive.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="expression_formatting.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="fast_exponentiation.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="fnv.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gap_buffer.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="hash_table.py">
@@ -31,32 +59,38 @@
     <Compile Include="heap.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="heap_repeat.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="insertion_sort.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="is_sorted.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="k_way_merge.py">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="linked_list_demo.py" />
     <Compile Include="binary_tree.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="max_square.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="merge_sort.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="nineteen.py">
+    <Compile Include="monk_multiplication.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="pages.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="queue.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="quick_sort.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="recursion_study.py">
+    <Compile Include="rb_tree.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="selection_sort.py">
@@ -65,12 +99,19 @@
     <Compile Include="sort_blue_red_balls.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="test.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="thanos_sort.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="trie.py">
       <SubType>Code</SubType>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|PythonCore|3.6" />
+    <InterpreterReference Include="Global|PythonCore|3.7" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

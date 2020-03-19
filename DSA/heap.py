@@ -19,7 +19,7 @@ def build_heap(a):
         return
     #index of left child of node i = 2i + 1
     #index of right child of node i = 2i + 2
-    #calc index of the last non-lead node
+    #calc index of the last non-leaf node
     last_leaf = len(a) - 1
     i = (last_leaf - 1) // 2
     while i >= 0:
